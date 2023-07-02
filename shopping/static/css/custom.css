@@ -1,0 +1,142 @@
+body{
+ font-family:roboto;
+ 
+ 
+ }
+
+.navbar-nav{
+   align-content: center;
+}
+.nav-item{
+    letter-spacing:0.2em;
+    font-size:14px;
+    text-transform:uppercase;
+    align-items: center;
+ 
+    }
+
+.form-control mr-sm-2{
+    position:right}
+
+.footer{
+    background-color:rgb(0, 0, 0);
+    height: 60px;
+}
+.my_footer p{
+    
+    padding-top:20px;
+    -webkit-text-fill-color: #868e96;
+}
+.logo{
+    padding-bottom: 20;
+
+}
+.mycard{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.mycard:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/***category***/
+/* .mx-auto{
+    color:#0000;
+    font-size:12px;
+    } */
+
+.my_image{
+     width:fit-content;
+     height:300;
+}
+
+.my_title{
+font-size:16px;
+text-transform:uppercase;
+letter-spacing:.2em;
+}
+
+.image_padding{
+padding:5px;
+}
+
+.my_bottom_margin{
+    
+    margin-bottom: 20;
+    /* margin-bottom: auto; */
+    
+}
+
+.card-body{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    background-color: rgb(184, 184, 184);
+}
+
+/**product**/
+.my_prod_row_class{
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+.my_prod_row_class mx_auto{
+    color:black;
+    font-size:12px;
+    text-decoration:none;
+    }
+
+.my_prod_title{
+    font-size:14px;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    padding-top:15px;
+    padding-bottom:10px;
+    }
+
+.my_prod_text{
+padding-right:20px;
+}
+
+.my_table{
+    min-width:400px;
+    font-size:14px;
+    }
+
+.my_thead{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    background-color: #f0f0fa!important;
+    }
+
+.custom-a{
+    text-decoration:none;
+    }
+
+.custom-icon{
+    text-decoration:none;
+    color:#868e96 !important;
+    }
+.topnav-right {
+        float: right;
+      }
+.my_button{
+    margin-top:5px;
+
+    }
+.myfoot
+.total{
+    font-size:24px;
+    }
+/* .mycard{
+   
+    border-radius: 20;
+    color: black;
+
+} */

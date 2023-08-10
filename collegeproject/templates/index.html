@@ -1,0 +1,25 @@
+{%extends 'base.html'%}
+{%block content%}
+<div ><center>
+  <div class="shadow">
+OXFORD UNIVERSITY
+  </div>
+<div class="image card shadow  bg-white rounded">
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/12/f2/09/university-college.jpg?w=1200&h=-1&s=1">
+
+</div>         
+{% if user.is_authenticated %}
+        <!-- <li>Hello {{user.username}}</li> -->
+        
+        {% else %}
+        
+        
+          <a class="nav-link" href="login"><button class="btn btn-success my-2 my-sm-0" >LOGIN</button></a>
+        </li>
+        {%endif%}
+</center>
+</div>
+
+
+{% endblock %}
+

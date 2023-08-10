@@ -1,0 +1,19 @@
+<!-- message_popup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Popup</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Display message in a pop-up box
+            alert('{{ messages }}');
+        });
+    </script>
+</head>
+<body>
+    <button onclick="window.location.href='{% url 'home' %}'">Return to Home</button>
+</body>
+</html>
